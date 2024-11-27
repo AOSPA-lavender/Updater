@@ -46,6 +46,12 @@ android_app {
 }
 
 prebuilt_etc {
+    name: "init.lundage-updater.rc",
+    src: "init.lundage-updater.rc",
+    sub_dir: "init",
+}
+
+prebuilt_etc {
     name: "privapp_whitelist_org.lineageos.updater",
     system_ext_specific: true,
     sub_dir: "permissions",
